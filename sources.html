@@ -1,0 +1,95 @@
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <!-- <script type="text/javascript" src="mapa.js"></script> -->
+    <script>
+      Loader.load();
+    </script>
+    <title>Mapa podcastu</title>
+  </head>
+
+  <nav>
+    <div class="NavBar">
+      <div onclick="goToPage('index.html')" class="NavItem">
+        <a href="index.html">O nás</a>
+      </div>
+      <div onclick="goToPage('projekty.html')" class="NavItem">
+        <a href="projekty.html">Projekty</a>
+      </div>
+      <div onclick="goToPage('mapa.html')" class="NavItem">
+        <a href="mapa.html">Mapa</a>
+      </div>
+      <div onclick="goToPage('podcasty.html')" class="NavItem">
+        <a href="podcasty.html">Podcasty</a>
+      </div>
+      <div onclick="goToPage('sources.html')" class="NavItem">
+        <a href="sources.html">Zdroje</a>
+      </div>
+    </div>
+    <script>
+      function goToPage(name) {
+        window.location.href = name;
+      }
+    </script>
+  </nav>
+
+  <body>
+    <div class="Container">
+      <div class="MainHeader">
+        <p>Výběr z použitých zdrojů:</p>
+      </div>
+      <div id="Zdroje">
+        <p>
+          1) rozhovory s místními badateli a pamětníky: <br />
+          a. Lucie Voříšková (14. 6. 2022) <br />
+          b.Tomáš Brettl (15. 6. 2022) <br />
+          c. Jiří Blažek (16. 6. 2022) 2) <br /><br />
+          2) archivní prameny: <br />
+          Kronika města aneb Pamětní kniha města Rožmitála pod Třemšínem,
+          1930-1952, Státní oblastní archiv Příbram. <br />
+          Sbírka fotografií Rožmitálu pod Třemšínem z let 1989-1990, Podbrdské
+          muzeum v Rožmitále pod Třemšínem. <br /><br />
+          3) knihy a studie: <br />
+          1. Tomáš BRETTL, Protinacistický odboj v Rožmitále pod Třemšínem, 2021
+          (bakalářská <br />
+          2.práce obhájená na Pedagogické fakultě Univerzity Karlovi) <br />
+          3. Jan ČÁKA, Brdské toulání, Praha 1983. <br />
+          4. Jan ČÁKA, Střední Brdy - krajina neznámá, Praha 2003 <br />
+          5. Jiří FRÖLICH, Poloha a podoba popravišť prácheňského kraje,
+          Archeologie ve středních Čechách, 10, 2006, str. 945-957. <br />
+          6. František HÁLA, Příspěvek k dějinám Rožmitálska v období let
+          1939-1948, Buková 2008. <br />
+          7. Jan JIRÁŇ, Hofmeisterův skautský experiment, Podbrdsko 2019, s.
+          104-114. <br />
+          8. Jiří JIRÁSEK, Tenkrát v Rosenthalu. Život a živoření za
+          protektorátu, Praha 2021. <br />
+          9. August SEDLÁČEK, Děje prachenského kraje, Písek 1926, s. 216.
+          <br />
+          10. František A. SLAVÍK, Rožmitál pod Třemšínem a okolí, Rožmitál
+          1930. <br />
+          11. Jiří PEŠTA, Vražda pastýřky v Horním lázu z roku 1762. Příspěvek k
+          dějinám hrdelního soudnictví měst Rožmitálu pod Třemšínem a Písku,
+          Podbrdsko 2018, s. 40-68. <br />
+          12. Zdeněk KÁRNÍK - Josef VELFL, Po stezkách brdských partyzánů,
+          Praha, 1988.
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    Created by:
+    <a href="https://linktr.ee/bonsaie" target="_blank">Bonsaie</a>
+    & <a href="https://github.com/Skirlax">Skirlax</a>
+  </footer>
+</html>

@@ -1,0 +1,188 @@
+html {
+  background-color: #f7ecde;
+  /* width: 100%;
+    height: 100%; */
+}
+
+nav {
+  background-color: #54bab9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.NavBar {
+  background-color: #54bab9;
+  width: 1000px;
+  border-radius: 30px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "Oswald", sans-serif;
+}
+
+.NavItem {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavItem:first-of-type:hover {
+  border-bottom-left-radius: 30px;
+  background-color: #3d9897;
+}
+
+.NavItem:nth-of-type(2):hover {
+  background-color: #3d9897;
+}
+
+.NavItem:nth-of-type(3):hover {
+  background-color: #3d9897;
+}
+
+.NavItem:nth-of-type(4):hover {
+  background-color: #3d9897;
+}
+.NavItem:last-of-type:hover {
+  background-color: #3d9897;
+  border-bottom-right-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Map {
+  width: 1400px;
+  height: 1000px;
+}
+.Creator {
+}
+#creators {
+  background: #e9dac1;
+}
+
+#m {
+  width: 1400px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+body {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+footer {
+  background: #54bab9;
+  /*  round corners */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 22px;
+  width: 290px;
+
+  text-align: center;
+}
+
+.Container {
+  padding-top: 70px;
+  width: 75%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: #f7ecde;
+}
+
+.MainHeader {
+  background-image: url(/Images/wave-haikei\\(3\).svg);
+  background-size: cover;
+  background-position: contain;
+  width: 90%;
+  height: 175px;
+  font-size: 2.3em;
+  font-family: "Oswald", sans-serif;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.TextUnderHeader {
+  margin-bottom: 20px;
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Line {
+  height: 5px;
+  width: 80%;
+  border-bottom: black 1.5px solid;
+}
+
+.SpaceBetween {
+  width: 100%;
+  height: 100px;
+  background-image: url(/Images/blob-haikei.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.SpaceBetween:nth-of-type(2n) {
+  width: 100%;
+  height: 100px;
+  background-image: url(/Images/blob-haikei\\(1\).svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.SpaceBetween:last-of-type {
+  opacity: 0;
+}
+
+#Zdroje {
+  float: left;
+  left: 11%;
+  position: relative;
+  padding-top: 70px;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: #f7ecde;
+  /* set zdroje to be in center of the screen */
+}

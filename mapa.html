@@ -1,0 +1,58 @@
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <!-- <script type="text/javascript" src="mapa.js"></script> -->
+    <script>
+      Loader.load();
+    </script>
+    <title>Mapa podcastu</title>
+  </head>
+
+  <nav>
+    <div class="NavBar">
+      <div onclick="goToPage('index.html')" class="NavItem">
+        <a href="index.html">O nás</a>
+      </div>
+      <div onclick="goToPage('projekty.html')" class="NavItem">
+        <a href="projekty.html">Projekty</a>
+      </div>
+      <div onclick="goToPage('mapa.html')" class="NavItem">
+        <a href="mapa.html">Mapa</a>
+      </div>
+      <div onclick="goToPage('podcasty.html')" class="NavItem">
+        <a href="podcasty.html">Podcasty</a>
+      </div>
+      <div onclick="goToPage('sources.html')" class="NavItem">
+        <a href="sources.html">Zdroje</a>
+      </div>
+    </div>
+    <script>
+      function goToPage(name) {
+        window.location.href = name;
+      }
+    </script>
+  </nav>
+
+  <body>
+    <div class="Container"></div>
+    <div id="m"></div>
+    <script src="mapa.js"></script>
+  </body>
+
+  <!-- <footer>
+    <div class="Creator">
+      Created by:
+      <a href="https://linktr.ee/bonsaie" target="_blank">"Bonsaie"</a>
+    </div>
+  </footer> -->
+</html>
