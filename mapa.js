@@ -67,6 +67,20 @@ var podcast_props = {
     "Den v Hofmeistrově americké kolonii",
     "Málokdo ví, že zde v Rožmitále vznikl skauting dříve, než Antonín B. Svojsík založil v Českém království organizaci Junák. S počátky skautování je spojeno jméno Františka Hofmeistera, rožmitálského rodáka, učitele na vyšší lesnické škole v Písku a milovníka všeho francouzského. Hofmeister se kolem roku 1908 vydal do USA, kde ho doslova uchvátila činnost Setonova hnutí Woodcraft neboli Ligy lesní moudrosti. Po návratu domů kolem sebe na jaře roku 1911 shromáždil skupinu chlapců a dívek. Společným činnostem se věnovali nejen na letních táborech, ale také v průběhu roku. Tábořili v přírodě,  vařili na otevřeném ohni, učili se signalizovat, učili se znát stopy zvířat v přírodě, vařili na ohništi, sportovali a muzicírovali. Jezdili na koních, šermovali, učili se jezdit na lyžích anebo pomáhali zemědělcům s polními pracemi. V rámci oddílu vznikl trubačský soubor a později dokonce malý smyčcový orchestr. Dívčí skupina se věnovala také zahradničení, šítí a vaření. František Hofmeister se pro práci s mládeží inspiroval nejen Ernestem Thomsonem Setonem, ale také zakladatelem britského skautingu Robertem Baden-Powellem. Jeho středisko používalo pojmenování Americká kolonie pro mládež, zároveň se však sami po Baden-Powellově vzoru nazývali skauti. Činnost chlapců a dívek však přervala první světová válka, František Hofmeister musel v roce 1915 narukovat na frontu. Válku přežil, nicméně k obnovení střediska pod jeho vedením již nedošlo. Vzpomínky na několik let skautování naštěstí nezmizely a byly zaznamenány, a s nimi také příběh o prvním (na dlouhou dobu zapomenutém) skautském experimentu v Českém království.",
   ],
+  paya: [
+    [40, 28],
+    [13.8630211, 49.6029992],
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Namesti_rozmital.jpg/800px-Namesti_rozmital.jpg",
+    "nářečí v Rožmitálsku",
+    "Představte si, že jste v 19. Století a právě teď probíhá rozhovor mezi Marií Hoškovou a Karolíny, sestry bohuslavy Rajské. Všimnete si, že používají nářečí. Dozvíte se také, jak to probíhalo, když Bohuslava s Marií zakládali společnost dívek českých.\n\nJaké nářečí jsme používali:\npražka - pražačka\njahody - borůvky\nnejčky/nejčko - nyní\nkterak - jak\nrejchotnej - nepřístupně zvědavej\nvíšli - to je ale co?\nnemám gdá - nemám čas",
+  ],
+  paya2: [
+    [52, 29],
+    [13.8711469, 49.6022556],
+    "Images/8d4279b4f9d4f26eb8940494135ed135.jpg",
+    "Bohuslava Rajská",
+    "Bohuslava Rajská (spisovatelka, básnířka, česká vlastenka) se narodila v Rožmitále pod Třemšínem. Po smrti její matky žila u své sestry Karolíny. O několik let později roku 1842 navštěvuje obrozeneckou školu Budeč česká - K.S Amerling. Její velký sen byl založení vzdělávacího ústavu pro dívky. To Uskutečňuje téhož roku společně s Marií Terezií. Roku 1844 se koná sňatek Bohuslavy Rajské a Františka Ladislava Čelakovského. Bohuslava Rajská se stává Čelakovskou a stěhuje se do Varšavy. Později zjišťuje, že je v manželství nešťastná. Ve 35 letech roku 1852 umírá na tuberkulózu.",
+  ],
 };
 
 var obrazky = [];

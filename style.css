@@ -79,6 +79,9 @@ a {
   margin-right: auto;
   margin-top: 50px;
 }
+audio {
+  padding-top: 15px;
+}
 
 body {
   height: 800px;
